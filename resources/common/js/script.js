@@ -6,10 +6,6 @@ content =  document.getElementById("content");
 var content_margin_left;
 var content_margin_top;
 
- if (wrapper_width > 750) {
-	content.style.width = 750 + "px";
- };
-
 var content_height = document.getElementById("content").offsetHeight,
 content_width = document.getElementById("content").offsetWidth;
 
@@ -30,4 +26,4 @@ function content_hide () {
 
 // ======================= END Hide Content div ======================= \\
 
-// ======================= Show nav menu =======================\\
+// ======================= Show nav menu ====x===================\\
