@@ -84,7 +84,7 @@
 .main_page__contact_info {
     width: 270px;
     margin: 0 auto;
-    
+    text-align: left;
 }
 
 .main_page__phone:before{
@@ -124,23 +124,21 @@
 
 .btn {
 	margin: 40px auto;
-	padding-left: 80px;
 	display: block;
 	width: 277px;
 	height: 69px;
-	background: url('../img/btn.png') no-repeat;
-	font: 27px 'Tahoma';
+    font: 27px/69px 'Tahoma';
     text-decoration: none;
-	line-height: 69px;
-	color: #fff;
+	background-image: url('../img/btn-sprite.png');
+    color: #fff;
 }
 
 .btn:hover {
-background: url('../img/btn_hover.png') no-repeat;
+background-position: 0 -71px;
 }
 
 .btn:active {
-background: url('../img/btn_active.png') no-repeat;
+background-position: 0 -141px;
 }
 
 
