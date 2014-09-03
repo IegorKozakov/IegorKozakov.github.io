@@ -87,31 +87,23 @@
     text-align: left;
 }
 
-.main_page__phone:before{
-	background: url('../img/phone.png');
+.main_page__phone:before,
+.main_page__mail:before,
+.main_page__skype:before {
+	background: url('../img/sotial-sprite.png') no-repeat;
     content: "";
     display: block;
     float: left;
-    width: 30px;
-    height: 30px;
+    width: 31px;
+    height: 31px;
 }
 
-.main_page__mail:before {
-	background: url('../img/mail.png');
-    content: "";
-    display: block;
-    float: left;
-    width: 30px;
-    height: 30px;
+.main_page__phone:before {
+    background-position: -65px 0;
 }
 
 .main_page__skype:before {
-	background: url('../img/skype.png');
-    content: "";
-    display: block;
-    float: left;
-    width: 30px;
-    height: 30px;
+    background-position: -33px 0;
 }
 
 .main_page__phone_link,
