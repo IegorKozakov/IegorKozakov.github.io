@@ -1,6 +1,10 @@
 
 /*----------------CONTENT----------------*/
 
+body {
+    min-width: 320px;
+}
+
 .wrapper {
     position: absolute;
     top: 0;
@@ -8,6 +12,12 @@
     right: 0;
     bottom: 0;
     font-size: 0;
+    background: url('../img/bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 320px;
 }
 
 .wrapper:before {
@@ -38,6 +48,8 @@
     max-width: 750px;
     box-sizing: border-box;
     opacity: 0;
+    background-color: rgba( 0, 0, 0, 0.7);
+    border-radius: 5px;
 }
 
 .main_page__photo {
@@ -145,6 +157,7 @@ background-position: 0 -141px;
 
     .main_page__contact_info {
         margin: 0 auto;
+        max-width: 280px;
     }
 
     .details-btn {
