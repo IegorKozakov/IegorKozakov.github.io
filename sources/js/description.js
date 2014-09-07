@@ -14,4 +14,9 @@ $( document ).ready(function() {
  			'top': '0'
  		})
  	}
+
+ 	setTimeout(opacity, 800);
+ 	function opacity () {
+ 		$('.content').css('opacity', '1');
+ 	}
 });

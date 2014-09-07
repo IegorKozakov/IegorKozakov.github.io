@@ -1,3 +1,7 @@
+.wrapper {
+	background: #99B2FF;
+}
+
 .nav-bock {
 	position: relative;
 	top: -150px;
@@ -86,14 +90,44 @@
 	max-width: 768px;
 	padding: 0 10px;
 	margin: 50px auto;
+	opacity: 0;
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
 }
 
 .description-section {
 	border-bottom: 3px solid #e89418;
 	margin: 0 0 20px;
+	padding: 0 0 20px;
 }
 
 .section-title {
 	font: 20px/1.2 Tahoma, sans-serif;
 	color: #fcad26;
+	margin: 0 0 15px;
+}
+
+.description-section-list {	
+	padding: 0 0 20px 15px;
+}
+
+.description-section-list li {
+	list-style: disc outside;
+	color: #fcad26;
+}
+
+.description-section-list span {
+	color: #000;
+	font-family: Tahoma, sans-serif;
+}
+
+.description-section-table tr td:first-child {
+	width: 30%;
+}
+
+.description-section-table td {
+	border: 2px solid #e89418;
+	padding: 0 5px
 }
