@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    $('.nav-bock').css("top", "20px");
+    $('.nav-bock').css("top", "30px");
 
     setTimeout(rotate, 500);
  	
@@ -11,7 +11,7 @@ $( document ).ready(function() {
     		'-webkit-transform': 'rotate(0deg)',
     		'-o-transform': 'rotate(0deg)',
  			'transform': 'rotate(0deg)',
- 			'top': '0'
+ 			'top': '10px'
  		})
  	}
 

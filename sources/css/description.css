@@ -1,5 +1,9 @@
 .wrapper {
-	background: #99B2FF;
+	background: url('../img/bg-desc.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .nav-bock {
@@ -8,7 +12,7 @@
 	background: #4b4b4b;
 	max-width: 768px;
 	margin: 0 auto;
-	border-radius: 0 0 15px 15px;
+	border-radius: 15px;
 	-webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -o-transition: 0.5s;
@@ -25,17 +29,16 @@
     transform-origin: 100% 0;
 }
 
-.nav-photo {
+.nav-phot {
 	display: block;
 	height: 100px;
 	float: left;
 	border-right: 1px solid #353535;
 }
 
-.nav-photo img {
-	width: 75px;
-	height: 75px;
-	margin: 14px;
+.top-menu-image {
+	width: 50px;
+	height: 50px;
 }
 
 .nav-list {
@@ -47,32 +50,12 @@
 }
 
 .nav-list li:first-child  a{
-	padding: 33px 9px 5px;
+	padding: 10px 9px 5px;
+	border-left: none;
 }
 
 .nav-list li:last-child a {
 	border: none;
-}
-
-.nav-list li:first-child  a:after {
-	margin: 23px 0 0;
-}
-
-.nav-list a:after {
-	content: "";
-	display: block;
-	height: 5px;
-	width: 0;
-	background: #E6E8DF;
-	-webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-    margin: 39px 0 0;
-}
-
-.nav-list a:hover:after {
-	width: 100%;
 }
 
 .nav-list a {
@@ -84,12 +67,12 @@
 	text-align: center;
 	border-left: 1px solid #565656;
 	border-right: 1px solid #353535;
-	padding: 33px 10px 5px;	
+	padding: 25px 22px 26px;
 }
+
 .content {
 	max-width: 768px;
-	padding: 0 10px;
-	margin: 50px auto;
+	margin: 30px auto 0;
 	opacity: 0;
 	-webkit-transition: 1s;
     -moz-transition: 1s;
@@ -100,12 +83,14 @@
 .description-section {
 	border-bottom: 3px solid #e89418;
 	margin: 0 0 20px;
-	padding: 0 0 20px;
+	padding: 20px 10px 20px;
+	background-color: rgba(225, 225, 225, .9);
+	border-radius: 15px;
 }
 
 .section-title {
 	font: 20px/1.2 Tahoma, sans-serif;
-	color: #fcad26;
+	color: #A66300;
 	margin: 0 0 15px;
 }
 
@@ -114,8 +99,8 @@
 }
 
 .description-section-list li {
-	list-style: disc outside;
-	color: #fcad26;
+	list-style: url('../img/checked.png') outside;
+	color: #A66300;
 }
 
 .description-section-list span {

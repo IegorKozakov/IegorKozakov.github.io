@@ -3,6 +3,16 @@
 
 body {
     min-width: 320px;
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    opacity: 1;
 }
 
 .wrapper {
@@ -12,11 +22,6 @@ body {
     right: 0;
     bottom: 0;
     font-size: 0;
-    background: url('../img/bg.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     min-width: 320px;
 }
 
