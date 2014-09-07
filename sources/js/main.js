@@ -1,3 +1,6 @@
+$( document ).ready(function() {
+	$('.main_page_intro').css('opacity', '1');
+});
 $('.details-btn').click(function() {
 
 	$('.main_page_intro').css('top', '-999px');

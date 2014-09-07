@@ -37,7 +37,8 @@
     width: 100%;
     max-width: 750px;
     box-sizing: border-box;
-	}
+    opacity: 0;
+}
 
 .main_page__photo {
 	display: block;
@@ -78,7 +79,6 @@
 }
 
 .main_page__contact_info {
-    width: 270px;
     text-align: left;
 }
 

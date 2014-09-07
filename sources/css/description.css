@@ -82,7 +82,18 @@
 	border-right: 1px solid #353535;
 	padding: 33px 10px 5px;	
 }
+.content {
+	max-width: 768px;
+	padding: 0 10px;
+	margin: 50px auto;
+}
 
-.nav-list a:hover {
+.description-section {
+	border-bottom: 3px solid #e89418;
+	margin: 0 0 20px;
+}
 
+.section-title {
+	font: 20px/1.2 Tahoma, sans-serif;
+	color: #fcad26;
 }
