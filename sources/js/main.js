@@ -1,8 +1,7 @@
+$('.details-btn').click(function() {
 
-var btnDetails = document.getElementsByClassName('details-btn');
-
-function moveToTop(el) {
-	el.width(100 + "%");
-};
-
-btnDetails.onClick(moveToTop(btnDetails));
+	$('.main_page_intro').css('top', '-999px');
+	
+	setTimeout(function () {
+ 	window.location.href = "description.html"}, 800 );
+});
