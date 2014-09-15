@@ -1,21 +1,9 @@
 
+@import url(http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic);
 /*----------------CONTENT----------------*/
 
-body {
-    min-width: 320px;
+.intrio-slide-wrap {
     background: url('../img/bg.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-    opacity: 1;
-}
-
-.wrapper {
     position: absolute;
     top: 0;
     left: 0;
@@ -23,9 +11,20 @@ body {
     bottom: 0;
     font-size: 0;
     min-width: 320px;
+    overflow: hidden;
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -o-transition: 5s;
+    transition: 5s;
+    opacity: 1;
 }
 
-.wrapper:before {
+.intrio-slide-wrap:before {
     content: "";
     display: inline-block;
     vertical-align: middle;
@@ -86,7 +85,7 @@ body {
 }
 
 .main_page__name {
-    font: 42px 'Tahoma';
+    font:  42px/1.2 'Georgia';
     color: #8d9da2;
 }
 
@@ -136,14 +135,17 @@ body {
     text-align: center;
 	background-image: url('../img/btn-sprite.png');
     color: #fff;
+    background-position: -2px -1px;
+    overflow: hidden;
+    border-radius: 5px;
 }
 
 .btn:hover {
-background-position: 0 -71px;
+background-position: -2px -72px;
 }
 
 .btn:active {
-background-position: 0 -141px;
+background-position: -2px -142px;
 }
 
 

@@ -1,9 +1,14 @@
-.wrapper {
+.description-slide {
 	background: url('../img/bg-desc.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+	opacity: 0;
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
 }
 
 .nav-bock {
@@ -70,10 +75,12 @@
 	padding: 25px 22px 26px;
 }
 
+
+
 .content {
+	display: none;
 	max-width: 768px;
 	margin: 30px auto 0;
-	opacity: 0;
 	-webkit-transition: 1s;
     -moz-transition: 1s;
     -o-transition: 1s;
@@ -81,10 +88,9 @@
 }
 
 .description-section {
-	border-bottom: 3px solid #e89418;
 	margin: 0 0 20px;
 	padding: 20px 10px 20px;
-	background-color: rgba(225, 225, 225, .9);
+	background-color: rgba(225, 225, 225, .94);
 	border-radius: 15px;
 }
 
